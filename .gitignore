@@ -1,0 +1,8 @@
+# NPM Modules
+node_modules/
+
+# NPM Package Lock File
+package-lock.json
+
+# Unit tests
+test/
