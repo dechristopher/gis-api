@@ -1,0 +1,30 @@
+{
+  "name": "gis-api",
+  "version": "1.0.0",
+  "description": "A simple set of endpoints that can be used for GIS applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dechristopher/gis-api.git"
+  },
+  "keywords": [
+    "gis",
+    "geo",
+    "spatial",
+    "api"
+  ],
+  "author": "Andrew DeChristopher <drew@kiir.us>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dechristopher/gis-api/issues"
+  },
+  "homepage": "https://github.com/dechristopher/gis-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "tile38": "^0.6.4"
+  }
+}
